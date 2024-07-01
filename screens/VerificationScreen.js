@@ -15,7 +15,7 @@ const VerificationScreen = ({ navigation, route }) => {
       });
       if (response.ok) {
         // OTP verification successful, navigate to main app screen
-        navigation.navigate('MainAppScreen');
+        navigation.navigate('Homepage');
       } else {
         // Handle OTP verification failure
         console.error('Invalid OTP');

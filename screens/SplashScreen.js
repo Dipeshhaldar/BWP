@@ -5,12 +5,12 @@ const SplashScreen = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
       navigation.replace('Login');
-    }, 5000); // Display splash screen for 4 seconds
+    }, 5000); // Display splash screen for 5 seconds
   }, []);
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/social.png')} style={styles.logo} />
+      <Image source={require('../assets/NSSS-Logo.png')} style={styles.logo} />
     </View>
   );
 };
@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   logo: {
-    width: 200,
-    height: 200,
+    width: 300,
+    height: 300,
   },
 });
 
